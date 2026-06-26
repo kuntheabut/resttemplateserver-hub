@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: butkunthea/resttemplateserver-hub:3ac3fc237d540b67f9e80b1e3b1875ab13d8da11
+          image: ghcr.io/kuntheabut/resttemplateserver-hub:1af888c94704732db76d74c9808df2f720a55649
           ports:
             - containerPort: 8080
           env:
